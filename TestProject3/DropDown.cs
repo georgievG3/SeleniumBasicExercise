@@ -37,7 +37,7 @@ namespace TestProject3
         public void TestSelectFromDropDown()
         {
             // Launch Chrome browser with the given URL
-            driver.Url = "http://practice.bpbonline.com/";
+            driver.Url = "https://www.saucedemo.com/";
 
             //Create a text file to save manufacturer information
             string path = Directory.GetCurrentDirectory() + "/manufacturer.txt";

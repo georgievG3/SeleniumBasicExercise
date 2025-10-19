@@ -27,7 +27,7 @@ namespace TestProject2
         public void TestExtractProductInformation()
         {
             // Launch Chrome browser with the given URL
-            driver.Url = "http://practice.bpbonline.com/";
+            driver.Url = "https://www.saucedemo.com/";
 
             // Identify the web table
             IWebElement productTable = driver.FindElement(By.XPath("//*[@id='bodyContent']/div/div[2]/table"));
